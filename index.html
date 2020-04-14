@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>covid-19 By Pappu Hassan</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<script src="jquery-3.4.1.min.js"></script>
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js" integrity="sha256-KsRuvuRtUVvobe66OFtOQfjP8WA2SzYsmm4VPfMnxms=" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css" media="all" />
+	<script src="bootstrap.min.js"></script>
+	  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha256-jDnOKIOq2KNsQZTcBTEnsp76FnfMEttF6AV2DF2fFNE=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha256-JtQPj/3xub8oapVMaIijPNoM0DHoAtgh/gwFYuN5rik=" crossorigin="anonymous"></script>
+
+</head>
+<body onload="fetch();">
+	
+<header class="main_header">
+<nav class="navbar navbar-expand-lg navbar_style py-3 navbar-light fixed-top">
+  <a class="navbar-brand pl-5" href="#">Covid-19</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto pr-5">
+      <li class="nav-item active">
+        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">About</a>
+		 </li>
+		 
+		 
+		   <li class="nav-item">
+        <a class="nav-link" href="#sym">Symptoms</a>	
+		 </li>
+		 
+		 
+		   <li class="nav-item">
+          <a class="nav-link" href="#preven">prevention</a>
+		 </li>
+		 
+      
+   <li class="nav-item">
+        <a class="nav-link" href="#contact">contact</a>
+      </li>
+     
+    </ul>
+  </div>
+</nav>
+
+
+ 
+
+ <div id="home" class="container mt-5">
+	<div class="row mainSide">
+	
+	<div class="col-lg-5 col-sm-12 col-md-5 order-lg-1 order-2 leftSide">
+	
+	<div class="center_img d-flex justify-content-center align-items-center">
+		<img  src="logo.png" alt="" />
+	</div>
+	
+	</div>
+	
+	
+	
+	
+	
+	<div class="col-lg-7 col-sm-12 col-md-7 order-lg-2 order-1 rightSide">
+	<h1 class="display-4 text-capitalize">lets stay safe and fight togather </br> against cor <span> <img src="logo2.png" alt="" /></span>na virus </h1>
+	
+	</div>
+	
+	
+	
+	
+	</div>
+ 
+ 
+ </div>
+ 
+ 
+ </header>
+ 
+
+ 
+  
+ 
+ <section id="about" class="update text-center py-4">
+ 
+ <div class="container">
+ <h2 class="mb-2">Covid-19 Live Update</h2>
+ </div>
+ 
+ <div class="container">
+ 
+
+<table class="table text-center  table-responsive-sm table-responsive-md table-bordered table-striped mt-5" id="val">
+	
+		<tr >
+			<th>Country</th>
+			<th>TotalConfirmed</th>
+			<th>TotalRecovered</th>
+			<th>TotalDeaths</th>
+			<th>NewConfirmed</th>
+			<th class="bg-danger text-white">NewDeaths</th>
+		</tr>
+	
+	
+</table>
+
+
+
+ </div>
+ 
+ </section>
+ 
+ 
+ 
+ <section class="about-section py-5 text-center">
+  <div class="container">
+ <h2 class="mb-5">About covid-19</h2>
+ </div>
+ 
+ <div class="container">
+ 
+ <div class="row">
+ <div class="col-lg-6">
+ <img src="about.png" alt="" />
+ </div>
+ 
+ 
+ <div class="col-lg-6">
+ <h2 class="mb-3">what is covid-19(corona-virus)</h2>
+ <p class="text-justify">Coronaviruses are a group of related viruses that cause diseases in mammals and birds. In humans, coronaviruses cause respiratory tract infections that can be mild, such as some cases of the common cold (among other possible causes, predominantly rhinoviruses), and others that can be lethal, such as SARS, MERS, and COVID-19. Symptoms in other species vary: in chickens, they cause an upper respiratory tract disease, while in cows and pigs they cause diarrhea. There are yet to be vaccines or antiviral drugs to prevent or treat human coronavirus infections.</p>
+ 
+ </div>
+
+ </div>
+ 
+ </div>
+ 
+ </section>
+ 
+ 
+ 
+ 
+ 
+ <section class="symptoms py-5" id="sym"> 
+  <div class="container">
+ <h2 class="mb-5 text-center">corona-virus symptoms</h2>
+ </div>
+ 
+ 
+ <div class="container"> 
+	
+	<p> 
+People may be sick with the virus for 1 to 14 days before developing symptoms. The most common symptoms of coronavirus disease (COVID-19) are fever, tiredness, and dry cough. Most people (about 80%) recover from the disease without needing special treatment.
+More rarely, the disease can be serious and even fatal. Older people, and people with other medical conditions (such as asthma, diabetes, or heart disease), may be more vulnerable to becoming severely ill.
+People may experience:
+<ul> 
+	<li>cough</li>
+	<li>fever</li>
+	<li>tiredness</li>
+	<li>difficulty breathing (severe cases)</li>
+
+</ul>
+	</p>
+
+ 
+ </div>
+ 
+ </section>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <section class="prevention py-5" id="preven"> 
+ 
+  <div class="container">
+ <h2 class="text-center mb-4">prevention</h2>
+ </div>
+ 
+ 
+ <div class="container"> 
+ <p> There’s currently no vaccine to prevent coronavirus disease (COVID-19).
+You can protect yourself and help prevent spreading the virus to others if you:
+Do
+Wash your hands regularly for 20 seconds, with soap and water or alcohol-based hand rub
+Cover your nose and mouth with a disposable tissue or flexed elbow when you cough or sneeze
+Avoid close contact (1 meter or 3 feet) with people who are unwell
+Stay home and self-isolate from others in the household if you feel unwell
+Don't
+Touch your eyes, nose, or mouth if your hands are not clean
+ 
+ </p>
+ 
+ 
+ </div>
+ 
+ </section>
+ 
+ 
+ 
+ 
+ 
+ <section id="contact" class="contact py-5">
+  <div class="container">
+ <h2 class="mb-5 text-center">contact</h2>
+ </div>
+ 
+ <div class="container"> 
+ 
+ <div class="row"> 
+	
+	<div class="col-lg-8 offset-lg-2">
+
+<form action="form_core.php" method="POST">
+ 
+ 
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Username</label>
+    <input type="text" autocomplete="off" class="form-control"  name="username" placeholder="Username">
+  </div>
+  
+  
+   
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Email</label>
+    <input type="email" autocomplete="off" class="form-control"  name="email" placeholder="example@gmail.com">
+  </div>
+   
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Mobile number</label>
+    <input type="number" autocomplete="off" class="form-control"  name="phone" placeholder="Mobile Number">
+  </div>
+  
+  
+  
+  
+  <div class="custom-control custom-checkbox custom-control-inline text-capitalize"> 
+  <input type="checkbox" class="custom-control-input" id="customcheckbox2" name="coronasym[]" value="fever" />
+  <label for="customcheckbox2" class="custom-control-label" >Fever</label>
+  </div>
+  
+  
+  <div class="custom-control custom-checkbox custom-control-inline text-capitalize"> 
+  <input type="checkbox" class="custom-control-input" id="customcheckbox3" name="coronasym[]" value="cold" />
+  <label for="customcheckbox3" class="custom-control-label" >Cold</label>
+  </div>
+  
+   <div class="custom-control custom-checkbox custom-control-inline text-capitalize"> 
+  <input type="checkbox" class="custom-control-input" id="customcheckbox4" name="coronasym[]" value="breath" />
+  <label for="customcheckbox4" class="custom-control-label" >Defficulity in Breath</label>
+  </div>
+  
+    <div class="custom-control custom-checkbox custom-control-inline text-capitalize"> 
+  <input type="checkbox" class="custom-control-input" id="customcheckbox5" name="coronasym[]" value="week" />
+  <label for="customcheckbox5" class="custom-control-label" >Felling week</label>
+  </div>
+  
+  
+  
+  <div class="form-group mt-2">
+    <label for="exampleFormControlTextarea1">Describe how you are feeling</label>
+    <textarea class="form-control" name="message"  rows="3"></textarea>
+  </div>
+  
+  <button onclick="popup();" type="submit" name="submit" class="btn btn-primary">Submit</button>
+  
+ <h5 class="mt-3 text-success"> 
+  <?php 
+	
+	if(isset($_REQUEST['data'])){
+	
+	$alert =$_REQUEST['data'];
+	
+	if($alert == 'success'){
+		
+		echo 'Your Message sent successfully!';
+	}
+	
+		
+	}
+  
+  
+  
+  ?>
+  
+ 
+ 
+ </h5>
+</form>
+ 	
+	
+	
+	</div>
+ 
+ 
+ 
+ </div>
+ 
+ 
+ </div>
+ 
+ 
+ 
+ </section>
+ 
+ 
+ 
+
+
+ 
+ <div class="container"> 
+ <i class="fa fa-arrow-up" id="scrool" onclick="topfunction();"></i>
+ </div>
+ 
+ 
+ 
+ 
+<footer class="bg-dark py-5 text-center">
+
+<div class="row no-gutters"> 
+
+<div class="col-lg-4 col-sm-12"> 
+
+<div id="google_translate_element"></div>
+
+
+</div>
+
+<div class="col-lg-8 col-sm-12"> 
+
+<p class="text-white">Copyright 2020 Technical Ariyan Rumi All Right Reserved</p>  
+
+</div>
+
+</div>
+
+
+
+</footer>
+ 
+ 
+ 
+   <script>
+    
+
+
+	function fetch(){
+
+		$.get("https://api.covid19api.com/summary",
+
+			function(data){
+
+				let tval=document.getElementById('val');
+
+				for(var i=1;i<(data['Countries'].length); i++){
+					var x =tval.insertRow();
+					x.insertCell(0);
+
+					tval.rows[i].cells[0].innerHTML =data['Countries'][i-1]['Country'];
+
+
+
+						x.insertCell(1);
+						tval.rows[i].cells[1].innerHTML =data['Countries'][i-1]['TotalConfirmed'];
+
+
+
+						x.insertCell(2);
+						tval.rows[i].cells[2].innerHTML =data['Countries'][i-1]['TotalRecovered'];
+
+						x.insertCell(3);
+						tval.rows[i].cells[3].innerHTML =data['Countries'][i-1]['TotalDeaths'];
+
+						x.insertCell(4);
+						tval.rows[i].cells[4].innerHTML =data['Countries'][i-1]['NewConfirmed'];
+
+
+
+						x.insertCell(5);
+						tval.rows[i].cells[5].innerHTML =data['Countries'][i-1]['NewDeaths'];
+
+
+				}
+
+
+
+
+			}
+
+
+
+			);
+
+
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	let mybtn = document.getElementById('scrool');
+		
+	window.onscroll = function() {scrollFunction()};
+	
+	function scrollFunction(){
+		
+		if(document.body.scrollTop >100 || document.documentElement.scrollTop >100 ){
+			
+			mybtn.style.display="block";
+			
+			
+			
+		}else{
+			
+						mybtn.style.display="none";
+		}
+		
+		
+	}
+	
+	function topfunction(){
+		
+		document.body.scrollTop =0;
+		document.documentElement.scrollTop =0;
+		
+		
+	}
+	
+	
+	
+  function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+}
+	
+
+
+    </script>
+
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+</html>

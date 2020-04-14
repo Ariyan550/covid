@@ -1,0 +1,122 @@
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+
+}
+html{
+	scroll-behavior:smooth;
+}
+
+.leftSide img{
+	animation-name:rumione;
+	animation-duration:2s;
+    animation-iteration-count: infinite;
+	width:170px;
+	margin-top:30px;
+}
+
+
+a{
+	color:white!important;
+}
+
+a:hover{
+	color:white!important;
+}
+
+
+.navbar_style{
+	background:#006064!important;
+	text-transform:capitalize;
+	box-shadow:0px 15px 15px rgba(0,0,0,0.2);
+	
+}
+
+.rightSide img{
+	width:100px;
+	animation-name:rumitwo;
+	animation-duration:1s;
+    animation-iteration-count: infinite;
+}
+
+.mainSide{
+	width:100%;
+	height:100%;
+	padding-top:50px;
+}
+
+.main_header{
+	box-shadow:0px 15px 15px rgba(0,0,0,0.1);
+	padding-bottom:40px;
+}
+
+
+@keyframes rumione{
+	
+	25%{
+		transform:scale(1.4);
+	}
+	
+	
+	
+}
+
+
+
+@keyframes rumitwo{
+	
+	0%{
+		transform:rotate(0deg);
+	}
+	
+	100%{
+		transform:rotate(360deg);
+	}
+	
+}
+
+
+.update{
+	box-shadow:0px 15px 15px rgba(0,0,0,0.1);
+	
+}
+
+.about-section{
+	box-shadow:0px 15px 15px rgba(0,0,0,0.1);
+	
+}
+
+
+.about-section img{
+	width:400px;
+}
+
+
+
+.symptoms{
+	box-shadow:0px 15px 15px rgba(0,0,0,0.1);
+	
+}
+
+.prevention{
+		box-shadow:0px 15px 15px rgba(0,0,0,0.1);
+
+}
+
+
+#scrool{
+	position:fixed;
+	bottom:30px;
+	right:30px;
+	background:#00a8ff;
+	cursor:pointer;
+	outline:none;
+	z-index:99;
+	color:white;
+	padding:10px;
+	border-radius:10px;
+	border:none;
+	display:none;
+}
